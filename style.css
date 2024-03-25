@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Common Style */
+/* All */
+
+.navbar,
+.home,
+.features,
+.process,
+.discover,
+.feedback,
+.footer,
+.navbar-page2,
+.home-page2,
+.footer-page2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #eaeff9;
+}
+
+/* For Container Padding */
+.home,
+.features,
+.process,
+.discover,
+.feedback,
+.home-page2,
+.footer-page2 {
+  padding: 110px 0px;
+}
+
+/* For Container BG */
+.features,
+.process,
+.discover,
+.footer-page2 {
+  background-color: white;
+}
+
+/* Common Container */
+.navbar-container,
+.home-container,
+.features-container,
+.process-container,
+.discover-container,
+.feedback-container,
+.navbar-page2-container,
+.home-page2-container,
+.footer-page2-container {
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.features-container,
+.feedback-container,
+.home-page2-container,
+.footer-page2-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Common Navbar */
+.navbar-login-btn,
+.navbar-start-btn,
+.navbar-page2-start-btn {
+  color: white;
+  border: none;
+  background-color: #3b65b1;
+  width: 120px;
+  height: 45px;
+}
+
+/* Common left side section */
+.home-left,
+.process-left,
+.discover-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+/* Common right side section */
+.home-right,
+.process-right,
+.discover-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+/* Common button style */
+.home-start-btn,
+.process-learn-btn,
+.feedback-get-btn {
+  color: white;
+  border: none;
+  background-color: #3b65b1;
+  width: 150px;
+  height: 50px;
+  font-weight: 500;
+}
+
+/* Common title style */
+.features-title,
+.feedback-title,
+.footer-page2-title {
+  font-size: 30px;
+  font-weight: 600;
+  color: #363f43;
+}
+
+/* Common image style */
+.feature-img,
+.discover-img,
+.footer-page2-img {
+  font-size: 30px;
+  margin-bottom: 5px;
+  color: #3f64ab;
+}
+
+/* base title style */
+.feature-title,
+.discover-title,
+.footer-page2-subtitle {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #374142;
+}
+
+/* sub text style */
+.discover-subtext,
+.feedback-subtext {
+  font-size: 15px;
+  color: #374042;
+}
+
+/* Navbar Style */
+
+.navbar-container,
+.navbar-page2-container {
+  height: 80px;
+}
+
+.navbar-logo h2,
+.navbar-page2-logo h2 {
+  color: #3b65b1;
+}
+
+.navbar-menu ul,
+.navbar-page2-menu ul {
+  gap: 30px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-menu ul li:nth-child(1) a {
+  text-decoration: none;
+  color: #3b65b1;
+}
+
+.navbar-menu ul li:nth-child(1),
+.navbar-page2-menu ul li:nth-child(1) {
+  color: #3b65b1;
+}
+
+.navbar-page2-login-btn {
+  color: #3b65b1;
+  background-color: transparent;
+  font-weight: 500;
+  border: none;
+  width: 100px;
+  height: 45px;
+  font-size: 15px;
+}
+
+/* Home Section Style */
+
+.home-title {
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: bold;
+  color: #374142;
+}
+
+.home-subtitle {
+  margin: 50px 0px;
+  color: #737a7d;
+}
+
+/* Features Style */
+
+.features-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-bottom {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.feature-item {
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature-subtitle {
+  font-size: 13px;
+  color: #374042;
+}
+
+/* Process Style */
+
+.process-title {
+  font-size: 35px;
+  line-height: 55px;
+  font-weight: bold;
+  color: #374142;
+}
+
+.process-subtext {
+  margin: 40px 0px;
+  color: #737a7d;
+  font-size: 15px;
+}
+
+.process-chart {
+  padding: 100px;
+  border-radius: 20px;
+  background-color: #3b65b1;
+  width: 50%;
+  height: 50%;
+}
+
+/* Discover Style */
+.discover-left {
+  flex: 0.7;
+}
+
+.discover-right {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 50px;
+  padding: 20px;
+}
+
+/* Feedback Style */
+.feedback {
+  padding: 70px 0px;
+}
+
+.feedback-subtext {
+  margin: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer Style */
+.footer {
+  background-color: #374142;
+  height: 70px;
+  color: #c1c8ca;
+  font-size: 13px;
+}
+
+/* Page 2 Styles */
+
+/* Home Style */
+.home-page2-title {
+  font-size: 40px;
+  font-weight: bold;
+  word-spacing: 2.5px;
+  color: #363e43;
+}
+
+.home-page2-subtext {
+  text-align: center;
+  margin: 40px 0px;
+  color: #737b7d;
+}
+
+.home-page2-btns {
+  display: flex;
+  gap: 20px;
+}
+
+.home-page2-start-btn {
+  color: white;
+  background-color: #3b64b0;
+  border: none;
+  width: 140px;
+  height: 45px;
+  font-size: 15px;
+}
+
+.home-page2-learn-btn {
+  background-color: transparent;
+  color: #3b64b0;
+  border: 2px solid #3b64b0;
+  width: 140px;
+  height: 45px;
+  font-size: 15px;
+}
+
+/* Footer Style */
+.footer-page2-container {
+  width: 80%;
+}
+
+.footer-page2-subtext {
+  text-align: center;
+  margin: 25px 0px;
+  color: #737b7d;
+}
+
+.footer-page2-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+  padding: 20px;
+}
+
+.footer-page2-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-page2-subtexts {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 10px;
+  color: #62696a;
+}
+
+.footer-page2-discover {
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #3f64aa;
+}
+
+@media only screen and (max-width: 990px) {
+  .navbar-menu,
+  .navbar-page2-menu {
+    display: none;
+  }
+  .home,
+  .features,
+  .process,
+  .discover,
+  .home-page2,
+  .footer-page2 {
+    padding: 50px 0px;
+  }
+
+  .home-page2-title,
+  .footer-page2-title {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .home-container,
+  .features-container,
+  .process-container,
+  .discover-container,
+  .home-page2-container,
+  .footer-page2-container {
+    width: 90%;
+    flex-direction: column;
+  }
+  .home-container,
+  .process-container,
+  .discover-container {
+    gap: 50px;
+  }
+  .home-page2-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .home-left,
+  .process-left {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .features-bottom {
+    margin-top: 10px;
+  }
+}
